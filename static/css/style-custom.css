@@ -1,0 +1,43 @@
+
+.leilabody {
+    background-image: url("../img/yoleilamarina.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.letter {
+    width: 60%;
+    margin: 20% auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center
+}
+
+a {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center
+}
+
+.letter__image {
+    width: 100%;
+    transition: all .4s ease-in-out;
+    img-responsive;
+}
+
+.letter__image:hover {
+    border: 0 ;
+    box-shadow: 5px 5px gray;
+    transform:scale(1.1, 1.1);
+}
+
+.modal-body > .img-responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
